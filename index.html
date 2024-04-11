@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.7.2/socket.io.min.js" integrity="sha512-Xm9qbB6Pu06k3PUwPj785dyTl6oHxgsv9nHp7ej7nCpAqGZT3OZpsELuCYX05DdonFpTlBpXMOxjavIAIUwr0w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <title>Chat Groups</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-containor">
+     <form class="user-credentials">
+     <input type="text" maxlength="20" required placeholder="Type your name here" class="username">
+     
+     <button class="joinbutton" > Join </button>
+     <button class="leavebutton" > Leave  </button>
+     </form>
+     <div class="chat-messages">
+      
+       
+  
+   
+   </div> 
+
+   
+   <input class="typingalert">
+        
+         
+   
+     <form class="user-input" >
+        <input type="text" class="user-messages" placeholder="Type your message here........................................................">
+        <button class="send-message"> Send Message </button>
+     </form>
+
+
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
